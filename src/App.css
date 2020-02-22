@@ -1,7 +1,27 @@
 img {
-  display: block;
   height: 20vh;
-  width: 100vw;
+} 
+
+.block {
+  height: 40px;
+  background-color: aqua;
 }
 
+input, textarea {
+  display: block;
+}
 
+.flex {
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.columnLeft {
+  padding-left: 20vw;
+  width: 30%;
+}
+
+.columnRight {
+  width: 70%;
+}

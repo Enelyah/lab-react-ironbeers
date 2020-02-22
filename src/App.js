@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Fragment} from 'react';
 import './App.css';
 import Homepage from './Homepage';
 import AllBeers from './AllBeers';
@@ -10,6 +10,7 @@ import {Switch, Route, withRouter} from 'react-router-dom'
 
 
 function App(props) {
+  console.log(props)
   const isOnHome = props.location.pathname === '/';
   const renderNav = !isOnHome && <Nav />;
   return (
